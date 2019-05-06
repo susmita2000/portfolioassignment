@@ -1,0 +1,14 @@
+body{
+		background-image: url('scroll2.jpg');
+		background-size: 1200px 640px;
+		position: 55% -25%;
+		background-repeat: no-repeat;
+	}
+	h1 {
+		color:#39004d;
+		font-family:comic sans ms;
+		font-size: 80px;
+		padding-left: 190px;
+		padding-top: 30px;
+		
+	}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<link href='https://fonts.googleapis.com/css?family=Lemon' rel='stylesheet'>
+<head >
+<title>
+	about
+</title>
+
+<h1 font-family:'Lemon'><marquee behavior=scroll direction="left" scrollamount="8">About me...</marquee></h1>
+	
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+
+
+</head>
+<style type="text/css">
+	div.info{
+		font-size: 40px;
+		
+		border-radius: 50px;
+		width:650px;
+		height:350px;
+		padding-left: 49px;
+		padding-right: 28px;
+		padding-top: 30px;
+		position: absolute;
+		left:380px;
+		top:200px;
+		
+	}
+	li{
+		padding-bottom: 10px;
+	}
+	h1{
+		font-size: 90px;
+		color: #660080;
+		padding-left: 235px;
+		padding-right: 287px;
+		padding-top: 30px;
+		font-family:'Sofia';
+	
+	}
+	body{
+		
+			background-image: url('pat5.jpg');
+		background-size: 1000px 640px;
+		background-position: 45% -10%;
+		background-repeat: no-repeat;
+		background-color: black;
+	}
+	div.info{
+		color:#ff0066;
+		font-family: 'Courgette';
+	}
+		div.back{
+		border: 3px solid #ffcc99;
+		border-radius: 25px;
+		font-size: 33px;
+		color:#00004d;
+		background-color: white;
+		opacity: 0.7;
+		padding-left: 17px;
+	padding-top: 17px;
+	position: absolute;
+		bottom:30px;
+		left:40px;
+		height:60px;
+		width: 90px;
+		font-family: 'Sofia';
+
+	}
+	div.back:hover
+	{
+		-webkit-transform:scale(1.2);
+		-ms-transform: scale(1.2);
+		transform: scale(1.2);
+		opacity:1;
+		
+	}
+	@keyframes eg1{
+		33% { color:#0066ff; }
+		66% {color:#00e600;}
+		100%{color:#ff9900;}
+		
+	}
+	@keyframes eg2{
+		33% { color:#ff9900; }
+		66% {color:#0066ff;}
+		100%{color:#00e600;}
+		
+	}
+	@keyframes eg3{
+		33% { color:#00e600; }
+		66% {color:#ff9900;}
+		100%{color:#0066ff;}
+		
+	}
+	li.code{
+		
+		animation-name: eg1;
+		animation-duration: 10s;
+		animation-iteration-count: 70;
+	}
+	span.nm{
+		color:#660080;
+	}
+	span.nm:hover{
+		color: #ff3300;
+	}
+	li.ip{
+		
+		animation-name: eg2;
+		animation-duration: 10s;
+		animation-iteration-count: 70;
+	}
+	li.chem{
+		
+		animation-name: eg3;
+		animation-duration: 10s;
+		animation-iteration-count: 70;
+	}
+	li.chem:hover{
+		-webkit-transform:scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+
+	li.code:hover{
+		-webkit-transform:scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+
+	li.ip:hover{
+		-webkit-transform:scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+
+	</style>
+	<body>
+		<div class="info">
+			Hi! I am <span class="nm">Susmita</span>. I am a first year undergraduate student of E&ECE, IIT Kharagpur. My areas of interest include: 
+			<ul>
+				<li class="code">Coding<span> <img src="data.png" alt ="code" height="35" width="35"></span></li>
+				<li class="ip">Image processing<span> <img src="ip.png" alt ="ip" height="35" width="35"></span> </li>
+				<li class="chem"> Chemistry  <span> <img src="chemistry.png" alt ="chem" height="35" width="35"></span></li>
+			</ul>
+		</div>
+		<a href="index.html">
+		<div class="back">
+		Back
+	</div>
+</a>
+	</body>
+	</html>
